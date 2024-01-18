@@ -1,32 +1,49 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400,700&display=swap');
+@import url('https://coolors.co/ffe2d1-e1f0c4-6bab90-55917f');
 
 /* Define CSS Variables */
 :root {
-  --primary-color: #XXXXXX;
-  --secondary-color: #XXXXXX;
-  --accent1-color: #XXXXXX;
-  --accent2-color: #XXXXXX;
+  --primary-color: #396d93;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
 
-  --heading-font: '______', sans-serif;
-  --paragraph-font: '______', sans-serif;
 
-  --nav-background-color: #XXXXXX;
-  --nav-link-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav-hover-background-color: #XXXXXX;
+  --heading-font: 'Montserrat', sans-serif;
+  --paragraph-font: 'Montserrat', sans-serif;
+
+  --nav-background-color: #381d2a;
+  --nav-link-color: #ffe2d1;
+  --nav-hover-link-color: #e1f0c4;
+  --nav-hover-background-color: #55917f;
 }
 
-/* Body Selector Rule */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
 body {
   font-family: var(--paragraph-font);
   max-width: 960px;
-  margin: 0 auto; /* Centers the content */
+  margin: 0 auto;
+  /* Centers the content */
   padding: 20px;
 }
 
 /* Headings Grouping Selector */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
@@ -56,8 +73,9 @@ nav a {
   padding: 1rem;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
 }
 
 nav a:hover {
