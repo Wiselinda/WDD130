@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400,700&display=swap');
+
+:root {
+    --main-text-color: #396d93;
+    --secondary-color: #e7c24f;
+    --accent1-color: #a43312;
+    --accent2-color: #381d2a;
+}
+body, h1, h2, p, article {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #fff; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    margin: 0 10px;
+}
+
+main {
+    max-width: 800px; 
+    margin: 20px auto;
+}
+
+  .hero {
+    position: relative;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 155px;
+    left: 400px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero article {
+    position: absolute;
+    width: 20%;
+    background-color: rgba(110, 82, 236, 0.7); 
+    padding: 20px;
+    top: 195px;
+    left: 500px;
+  }
+  
+  .hero article img {
+    float: right;
+    margin-left: 10px; 
+  }
+  
+  .hero section {
+    margin-top: 20px; 
+  }
+  
+  .hero h2 {
+    color: #0077cc; 
+  }
+
+footer {
+    background-color: #bbb930; 
+    color: var(--footer-color);
+    text-align: center;
+    padding: 10px;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+footer img {
+    width: 30px; 
+    margin: 0 5px;
+}
