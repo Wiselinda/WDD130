@@ -4,19 +4,36 @@
     box-sizing: border-box;
 }
 
-nav a {
+nav {
     background-color: steelblue;
     color: white;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
     display: block;
-    padding: 10px 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(229, 242, 253);
 }
 
 h1 {
     color: steelblue;
 }
 
+.grid {
+    display:grid;
+    align-items: center;
+}
+
 main {
     max-width: 640px;
+    grid-column: center;
 }
 
 main img {
@@ -38,6 +55,8 @@ aside {
     color: #454545;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -59,8 +78,9 @@ p {
     padding: 0;
 }
 
-footer {
-    margin-top: 15px;
+header, footer {
+    max-width: 840px;
+    margin: 0 auto ;
     border-top: 1px solid #000;
     text-align: center;
 }
