@@ -97,12 +97,17 @@ nav a:hover {
   color: var(--nav-hover-link-color);
 }
 
+.adventures-section {
+  display: flex;
+  justify-content: space-between;
+}
+
 figure {
   border: thin solid #ce18a0;
   display: flex;
   flex-flow: column;
   padding: 5px;
-  max-width: 220px;
+  max-width: 200px;
   margin: auto;
 }
 
