@@ -29,11 +29,13 @@ h1 {
 .grid {
     display:grid;
     align-items: center;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 main {
-    max-width: 640px;
-    grid-column: center;
+    grid-column: 2;
+    padding: 1em;
 }
 
 main img {
