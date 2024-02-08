@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact River Rush Adventures for inquiries, reservations, and suggestions. Get in touch with our Team
+    for an unforgetable rafting experience.">
+    <meta name="author" content="Wiselinda Zidor">
+    <title>Contact River Rush Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Company Logo">
+        <h1>Rafting Adventures</h1>
+        <nav>
+            <ul class="navigation"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Address: Firuzkoy Mah Akbiyik sokak #23 Daire 1. Avcilar/Istanbul Zip code 34325</p>
+            <p>Phone: +905362396122</p>
+            <p>Email: lewisshelsee@gmail.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d752.6181974541967!2d28.70507754769213!3d41.01491120240951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1707005682370!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        </div>
+        <div class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <figcaption>Safety Officers</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <figcaption>Adventure guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <figcaption>River Experts</figcaption>
+            </figure>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Your Email Address:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label>Purpose of Message:</label>
+                <input type="radio" id="generalInquiry" name="messagePurpose" value="General Inquiry" required>
+                <label for="generalInquiry">General Inquiry</label>
+        
+                <input type="radio" id="reservationQuestion" name="messagePurpose" value="Reservation Question" required>
+                <label for="reservationQuestion">Reservation Question</label>
+        
+                <input type="radio" id="websiteSuggestion" name="messagePurpose" value="Website Suggestion" required>
+                <label for="websiteSuggestion">Website Suggestion</label>
+        
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+        
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 River Rush Adventures | Created by Wiselinda</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+</html>
+
